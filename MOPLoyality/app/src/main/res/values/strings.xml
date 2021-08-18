@@ -1,3 +1,5 @@
 <resources>
-  <string name="app_name">MOPLoyality</string>
+    <string name="app_name">MOPLoyality</string>
+    <string name="button">Button</string>
+    <string name="log_in">log in</string>
 </resources>
