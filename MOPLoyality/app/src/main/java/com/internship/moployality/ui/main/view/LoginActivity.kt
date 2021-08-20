@@ -11,27 +11,24 @@ import com.google.android.gms.common.SignInButton
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.tasks.Task
 import com.google.android.gms.common.api.ApiException
-
-
-
+import com.internship.moployality.R
 
 
 class LoginActivity : AppCompatActivity() {
 
-     var mGoogleSignInClient: GoogleSignInClient? =null
-     var singin: SignInButton?=null
-     val RC_SIGN_IN=0
+    var mGoogleSignInClient: GoogleSignInClient? = null
+    var signInBtn: SignInButton? = null
+
+    val RC_SIGN_IN = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.internship.moployality.R.layout.activity_login)
-      // findViewById<SignInButton> (R.id.sign_in_button).setOnClickListener(this);
+        setContentView(R.layout.activity_login)
 
-        singin =findViewById(com.internship.moployality.R.id.sign_in_button)
-        singin.setOnClickListener {
-
-            when (view.getId()) {
-                com.internship.moployality.R.id.sign_in_button -> signIn()
-            } }
+        signInBtn = findViewById(R.id.sign_in_button)
+        signInBtn?.setOnClickListener {
+            signIn()
+        }
 
         // Configure sign-in to request the user's ID, email address, and basic
 // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
@@ -45,8 +42,9 @@ class LoginActivity : AppCompatActivity() {
 
     private fun signIn() {
         val signInIntent: Intent = mGoogleSignInClient!!.signInIntent
-        startActivityForResult(signInIntent,RC_SIGN_IN)
+        startActivityForResult(signInIntent, RC_SIGN_IN)
     }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
@@ -58,12 +56,13 @@ class LoginActivity : AppCompatActivity() {
             handleSignInResult(task)
         }
     }
+
     private fun handleSignInResult(completedTask: Task<GoogleSignInAccount>) {
         try {
             val account = completedTask.getResult(ApiException::class.java)
 
             // Signed in successfully, show authenticated UI.
-            val intent= Intent(this,DashboardActivity::class.java)
+            val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
 
         } catch (e: ApiException) {

@@ -25,9 +25,9 @@ class DashboardActivity : AppCompatActivity() {
             val personId = acct.id
             val personPhoto: Uri? = acct.photoUrl
 
-            name.setText(personName)
-            email.setText(personEmail)
-            id.setText(personId)
+//            name.setText(personName)
+//            email.setText(personEmail)
+//            id.setText(personId)
         }
     }
 }
