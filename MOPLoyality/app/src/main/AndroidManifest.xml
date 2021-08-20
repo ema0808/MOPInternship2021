@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MOPLoyality">
         <activity
-            android:name=".ui.main.view.HomeActivity"
-            android:label="Home"
+            android:name=".ui.main.view.DashboardActivity"
             android:exported="true" />
+        <activity
+            android:name=".ui.main.view.HomeActivity"
+            android:exported="true"
+            android:label="Home" />
         <activity android:name=".ui.main.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
