@@ -8,11 +8,11 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation
 import com.internship.moployality.R
-import com.internship.moployality.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
 
-   var  binding: ActivityMainBinding?=null
+class SplashActivity : AppCompatActivity() {
+
+
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
     setupUI()
     supportActionBar?.hide()
 
-      binding= ActivityMainBinding.inflate(layoutInflater)
-      val view: View = binding!!.root
-      setContentView(view)
+     // binding= ActivityMainBinding.inflate(layoutInflater)
+      //val view: View = binding!!.root
+      setContentView(R.layout.activity_splash)
 
       //binding.
 

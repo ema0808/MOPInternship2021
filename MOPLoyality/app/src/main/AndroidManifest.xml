@@ -15,10 +15,10 @@
             android:name=".ui.main.view.DashboardActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.main.view.HomeActivity"
+            android:name=".ui.main.view.LoginActivity"
             android:exported="true"
             android:label="Home" />
-        <activity android:name=".ui.main.view.MainActivity">
+        <activity android:name=".ui.main.view.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

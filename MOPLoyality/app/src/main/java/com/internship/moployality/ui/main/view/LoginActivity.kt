@@ -16,14 +16,14 @@ import com.google.android.gms.common.api.ApiException
 
 
 
-class HomeActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
      var mGoogleSignInClient: GoogleSignInClient? =null
      var singin: SignInButton?=null
      val RC_SIGN_IN=0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.internship.moployality.R.layout.activity_home)
+        setContentView(com.internship.moployality.R.layout.activity_login)
       // findViewById<SignInButton> (R.id.sign_in_button).setOnClickListener(this);
 
         singin =findViewById(com.internship.moployality.R.id.sign_in_button)

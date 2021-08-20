@@ -7,8 +7,8 @@
 
     <activity
         android:id="@+id/homeActivity"
-        android:name="com.internship.moployality.ui.main.view.HomeActivity"
+        android:name="com.internship.moployality.ui.main.view.LoginActivity"
         android:label="activity_home"
-        tools:layout="@layout/activity_home" />
+        tools:layout="@layout/activity_login" />
 
 </navigation>
