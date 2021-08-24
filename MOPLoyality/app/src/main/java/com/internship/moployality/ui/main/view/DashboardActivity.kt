@@ -13,18 +13,15 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 
 
 class DashboardActivity : AppCompatActivity() {
-
-    
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        imageVIew= findViewById<>(R.id.imageView2)
-        name= findViewById<>(R.id.textName)
-        email= findViewById<>(R.id.textEmail)
-        id= findViewById<>(R.id.textID)
-        signOut=findViewById<>(new View.onClickListener)
+//        imageVIew= findViewById<>(R.id.imageView2)
+//        name= findViewById<>(R.id.textName)
+//        email= findViewById<>(R.id.textEmail)
+//        id= findViewById<>(R.id.textID)
+//        signOut=findViewById<>(new View.onClickListener)
 
 
 
@@ -36,10 +33,10 @@ class DashboardActivity : AppCompatActivity() {
             val personId = acct.id
             val personPhoto: Uri? = acct.photoUrl
 
-            name.setText(personName)
-            email.setText(personEmail)
-            id.setText(personId)
-            Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
+//            name.setText(personName)
+//            email.setText(personEmail)
+//            id.setText(personId)
+        // Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
         }
     }
 }
