@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/activity_dashboard.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/drawable/box.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/drawable/list_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/fragment_first.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/fragment_second.xml" value="0.264" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/fragment_shop_details.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/fragment_third.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/layout/item_layout.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/imtec/Downloads/projects/MOPInternship2021/MOPLoyality/app/src/main/res/menu/bottom_menu.xml" value="0.22239583333333332" />
       </map>
     </option>
   </component>
